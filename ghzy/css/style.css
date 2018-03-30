@@ -1,0 +1,69 @@
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+ol,ul{list-style: none;}
+a{text-decoration: none;}
+img,input,textarea{border: none;}
+body{font-family: "Microsoft YaHei", "Lantinghei", "Lucida Grande", Helvetica, Arial, sans-serif;}
+
+.inner{width: 1170px; margin: 0 auto;}
+
+.header{height: 68px; position: fixed; background-color: #fff; width: 100%; z-index: 10;}
+.header .logo{display: block; width: 148px; width: 56px; float: left; margin:8px 0 0 25px;}
+.header .logo img{width: 148px; height: 56px;}
+
+.header .ul_nav{float: left; height: 68px; line-height: 68px; margin-left: 120px; text-align: center; font-size: 16px;}
+.header .ul_nav li{width: 100px; float: left;}
+.header .ul_nav .all_product{position: relative;}
+.ul_nav .all_product .list_hide{width: 165px; position: absolute; top: 67px; left: -30px; background-color: #fff; display: none;}
+.ul_nav .all_product:hover .list_hide{display: block;}
+.ul_nav .list_hide li:hover{background-color: #39db87;}
+.ul_nav .list_hide li:hover a{color: #fff;}
+
+.ul_nav .list_hide li{width: 165px; height: 38px; line-height: 38px;}
+
+.header .ul_nav a{display: block; height: 100%; color: #1f1f1f;}
+.header .ul_nav a:hover{color: #39db87;}
+.header .all img{padding:0 0 3px 3px;}
+
+.header .ul_right{float: right; height: 68px; font-size: 14px;}
+.header .ul_right li{float: left; height: 68px; line-height: 68px;}
+.header .ul_right a{padding: 0 15px; color: #1f1f1f; height: 68px;}
+.header .ul_right a:hover{color: #39db87;}
+.header .ul_right .shopcar{background: url(../images/shopcar_03.jpg) no-repeat left center;}
+.header .ul_right .shopcar:hover{background-image: url(../images/green_car_03.jpg);}
+
+.ul_right .car{position: relative;}
+.ul_right .shopcar span{padding-left: 12px;}
+.shopcar_hide{line-height: 44px; position: absolute; width: 250px; height: 110px; border: 1px solid #d1d1d1; background-color: #fff; top: 68px; right: 0; border-radius: 3px; display: none; text-align: center; box-shadow: 0 0 2px rgba(0,0,0,.1);
+}
+.ul_right .car:hover .shopcar_hide{display: block;}
+.shopcar_hide p{height: 44px;display: inline-block; font-size: 14px; font-weight: bold; color: #555555; padding-bottom: 12px;}
+.shopcar_hide .price{color: #ff6242;}
+.car .shopcar_hide a{display: block; width: 230px; margin: 0 auto; height: 44px; line-height: 44px; background-color: #39db87; border-radius: 3px; padding: 0; color: #fff; font-size: 16px;}
+.car .shopcar_hide a:hover{color: #fff;}
+
+.header .search{height: 68px; float: right; margin-right: 50px; position: relative;}
+.header .search .search_but{width: 39px; height: 68px; background: #fff url(../images/search_03.jpg) no-repeat center; cursor: pointer; float: right;}
+
+.header .search .hide_search{opacity: 0;height: 68px; width: 251px; float: left; position: absolute; right: 39px; top: 0px; z-index: -1;}
+.header .hide_search .text{float: left; width: 201px; height: 68px; background-color: #39db87; color: #a3eec7; font-size: 14px;}
+.header .hide_search .sub{float: left; width: 50px; height: 68px; background:#39db87 url(../images/white_search_03.jpg) no-repeat center; cursor: pointer;}
+/*.header .hide_search .close{float: left; width: 39px; height: 68px; background: #39db87 url(../images/close_03.jpg) no-repeat center; cursor: pointer;}*/
+
+
+.footer{height: 116px; background-color: #121212; padding: 6px 0 0 21px; clear: both;}
+.ul_top{height: 57px;}
+.ul_top li{height: 57px; line-height: 57px; padding-left: 50px; float: left;}
+.ul_top a{font-size: 15px; color: #adadad;}
+.ul_top a:hover{color: #fff;}
+.ul_top .copyright{float: right; color: #adadad; margin-right: 100px; font-size: 14px;position: relative;}
+.ul_top .copyright img{margin-left: 15px;}
+.ul_top .weixin{width: 135px; height: 135px; display: none; position: absolute; background: #fff; top: -143px; right: -50px; background: url(../images/weichatQR_img.png) no-repeat center; background-size: 135px 135px;}
+.ul_top .wx_logo{vertical-align: middle;}
+.ul_top .wx_logo:hover+.weixin{display: block;}
+
+.ul_bot{height: 29px; padding-left: 44px;}
+.ul_bot li{margin-right: 12px; float: left;}
+
+.fixed{display: block; height: 38px; height: 38px; cursor: pointer;  position: fixed; right: 15px; }
+.contact{bottom: 164px;}
+.back{ bottom: 112px;}

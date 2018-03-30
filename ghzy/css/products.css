@@ -1,0 +1,50 @@
+.header .inner{width: 1120px;}
+
+.main{padding-top: 68px;}
+.main .p_top_link{height: 86px; line-height: 86px; padding-left: 10px; font-size: 14px; color: #999999;}
+.main .p_top_link a{color: #000; padding-right: 5px;}
+
+.main .main_left{float: left; width: 190px;}
+.main .main_left dt a{display: block; padding-left: 20px; height: 50px; line-height: 50px; border-bottom: 1px solid #eaeaea; color: #212121; font-size: 14px; background: url(../images/products_tri_06.jpg) no-repeat 151px center;}
+.main .main_left dl:hover dd{display: block;}
+.main_left dl:hover dt a{ background-image: url(../images/products_tri_03.jpg);}
+
+.main .main_left dd{display: none;}
+.main .main_left dd a{display: block;width: 140px; height: 50px; line-height: 50px; padding-left:50px; color: #717171; font-size: 14px;}
+.main .main_left dd:hover a{background-color: #39db87; color: #fff;}
+.main .main_left .a_last{border-bottom: 1px solid #eaeaea;}
+
+
+.main .main_right{float: right; width: 890px;}
+.main_right .rank{height: 39px; padding-bottom: 28px;}
+.main_right .rank li{float: left; height: 39px; line-height: 39px;font-size: 14px; color: #999; margin-right: 10px;}
+.main_right .rank .li_first{margin-right: 29px;}
+.main_right .rank .li_last{margin-left: 15px;}
+.main_right .rank li a{ color: #999; padding: 0 10px;}
+.main_right .rank .sold{background: url(../images/rank_06.jpg) no-repeat right center;}
+.main_right .rank .price{background: url(../images/rank_03.jpg) no-repeat right center; padding-right: 17px;}
+.main_right .rank .up_time{background: url(../images/rank_06.jpg) no-repeat right center;}
+
+.main_right .rank input{margin-right: 5px;}
+.main .main_right .right_top{float: right;}
+.main .main_right .right_top{color: #000; padding-right: 15px;}
+.main_right .right_top span{color: #999;}
+
+
+.main_right .products li{width: 268px; height: 353px; float: left; border: 1px solid #ecebeb; margin: 0 40px 10px 0; text-align: center; position: relative;}
+.main_right .products .li_right{margin: 0 0 10px 0;}
+.main_right .products .pic{width: 268px; height: 268px;}
+.products .pic img{width: 268px; height: 268px;}
+.products li h4{height: 38px; line-height: 38px; font-size: 16px; color: #222; font-weight: bold;}
+.products li p{height: 16px; line-height: 16px; color: #ff6242; font-size: 16px; font-weight: bold;}
+
+.products .add{display: none; width: 268px; height: 70px; position: absolute; background-color: #fff; overflow: hidden;border: 1px solid #ecebeb; border-top: none; left: -1px; bottom: -71px; z-index: 10; text-align: center;}
+.main_right .products li:hover .add{display: block;}
+
+.products .add a{display: inline-block; width: 205px; height: 50px; line-height: 50px; background-color: #39db87; border-radius: 3px; color: #fff; font-size: 18px;}
+
+.main .page{height: 101px; clear: both; padding-top: 115px; text-align: center;}
+.main .page ul{display: inline-block;}
+.main .page ul li{float: left;}
+.main .page a{display: block; width: 34px; height: 34px; border-radius: 50%; background-color: #fff; border: 1px solid #5d5d5d; color: #555; text-align: center; line-height: 34px; margin-right: 10px;}
+.main .page .active{background-color: #333; color: #fff;border: 1px solid #d5d5d5;}

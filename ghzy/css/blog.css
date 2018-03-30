@@ -1,0 +1,23 @@
+.inner{width: 1200px; margin: 0 auto;}
+
+.main .p_top{height: 66px; line-height: 66px; padding-top: 68px; font-size: 14px;}
+.main .p_top a{color: #000; margin-right: 8px;}
+.main .p_top span{margin-left: 14px; color: #555; line-height: 60px;}
+
+.main_left{width: 895px; height: 909px; float: left;}
+.main_left h2{height: 38px; line-height: 38px; padding-top: 68px; font-size: 20px;}
+.main_left .articles li{width: 895px; height: 170px; border-bottom: 1px solid #000; padding-top: 30px;}
+.main_left .articles img{float: left; padding-right: 15px; width: 204px; height: 132px;}
+.articles .time{height: 37px; padding-top: 24px; line-height: 37px; font-size: 12px;}
+.articles .title a{ font-size: 14px; font-weight: bold; color: #555;}
+
+.main_right{width: 260px; height: 837px; float: right; padding-top: 72px;}
+.articles_list dt{height: 52px; line-height: 52px;}
+.articles_list dd{height: 47px; line-height: 47px; font-size: 14px;}
+.articles_list a{display: block; width: 260px; height: 47px; color: #555;}
+.articles_list a span{padding: 0 12px;}
+.articles_list .active{ border-top: 1px solid #000; border-bottom: 1px solid #000; background-color: #ececec;}
+.articles_list .active{color: #000;}
+
+.main_right .tags{padding-top: 10px;}
+.main_right .tags dt{height: 58px; line-height: 58px; border-bottom: 1px solid #555; color: #555;}

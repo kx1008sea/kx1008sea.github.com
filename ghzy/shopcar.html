@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shopcar.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="inner">
+				<a class="logo" href="index.html"><img src="images/logo.png"></a>
+				<ul class="ul_nav">
+					<li><a href="index.html">首页</a></li>
+					<li class="all_product">
+						<a class="all" href="products.html">所有商品<img src="images/down_tri_03.jpg"></a>
+						<ul class="list_hide">
+							<li><a href="products.html">电视</a></li>
+							<li><a href="products.html">生活电器</a></li>
+							<li><a href="products.html">洗衣机</a></li>
+							<li><a href="products.html">家庭影音</a></li>
+							<li><a href="products.html">厨房小电</a></li>
+							<li><a href="products.html">冰箱</a></li>
+						</ul>
+					</li>
+					<li><a href="about.html">关于我们</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+				</ul>
+				<ul class="ul_right">
+					<li><span><a href="##">登录</a>|</span></li>
+					<li><a href="##">注册</a></li>
+					<li class="car">
+						<a class="shopcar" href="shopcar.html"><span>0</span></a>
+						<div class="shopcar_hide">
+							<p><span class="count">0</span>件商品</p>
+							<p>总计:<span class="price">￥0</span></p>
+							<a href="shopcar.html">去结算</a>
+						</div>
+					</li>
+				</ul>
+				<div class="search">
+					<input type="button" id="search_but" class="search_but" onclick="search()"/>
+					<div class="hide_search" id="hide_search">
+						<form>
+							<input type="submit" class="sub" value=""/>
+							<input type="text" class="text" placeholder="搜索全店"/>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main inner">
+			<h1>购物车</h1>
+			<div class="box">
+				<ul class="top">
+					<li class="li_left all_check"><input type="checkbox" />全选</li>
+					<li class="li_left product_name">商品名称</li>
+					<li class="li_right money">单价</li>
+					<li class="li_right number">数量</li>
+					<li class="li_right total">小计</li>
+					<li class="li_right behavior">操作</li>
+				</ul>
+				<div class="content">
+					<img src="images/shopcar_backet_03.jpg"/>
+					<p>您的购物车还没有商品，快去挑选心爱的商品吧</p>
+					<a href="products.html">去逛逛</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<ul class="ul_top">
+				<li><a href="about.html">关于我们</a></li>
+				<li><a href="index.html">友情链接</a></li>
+				<li><a href="index.html">联系我们</a></li>
+				<li class="copyright">
+					© 2016 youhaosuda.com All rights reserved.
+					<img class="wx_logo" src="images/weixin_03.jpg"/>
+					<div class="weixin"></div>
+				</li>
+			</ul>
+			<ul class="ul_bot">
+				<li><img src="images/footer_logo_05.jpg"/></li>
+				<li><img src="images/footer_logo_07.jpg"/></li>
+				<li><img src="images/footer_logo_09.jpg"/></li>
+				<li><img src="images/footer_logo_11.jpg"/></li>
+				<li><img src="images/footer_logo_13.jpg"/></li>
+				<li><img src="images/footer_logo_15.jpg"/></li>
+			</ul>
+			<a class="fixed contact"><img src="images/fixed_03.jpg"/></a>
+			<a class="fixed back"><img src="images/fixed_06.jpg"/></a>
+		</div>
+	</body>
+</html>

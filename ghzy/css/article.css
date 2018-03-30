@@ -1,0 +1,15 @@
+.inner{width: 1200px;}
+
+.header .logo{margin-left: 40px;}
+
+.main{padding-top: 68px;}
+
+.main .top_link{font-size: 14px; color: #555; height: 66px; line-height: 66px;}
+.main .top_link a{color: #000;}
+
+.main .main_left{width: 880px; float: left; padding-top: 62px;}
+.main .main_left .title{padding-top: 8px; height: 35px; line-height: 35px; color: #555; font-size: 20px;}
+.main .main_left .time{height: 28px; line-height: 28px; font-size: 12px; color: #999;}
+.time span{padding: 0 14px; padding-bottom: 13px;}
+
+.main .main_right{width: 260px; float: right; padding-top: 62px;}

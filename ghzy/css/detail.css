@@ -1,0 +1,38 @@
+.main .p_top_link{height: 66px; line-height: 66px; padding-top: 68px; font-size: 14px; color: #999;}
+.main .p_top_link a{color: #999;}
+.main .p_top_link .index{color: #000;}
+
+.main .pic{width: 554px; height: 972px; float: left; padding: 0 43px 0 33px; text-align: center;}
+.inner_pic{width: 554px; height: 592px; background: url(../images/s_xiyiji.jpg) no-repeat; background-size: 554px 592px; position: relative; margin-bottom: 34px; cursor: pointer;}
+.inner_pic .enlarge{display: block; width: 35px; height: 35px; background: #e5e4e6 url(../images/detail_search_03.jpg) no-repeat 10px 10px; position: absolute; right: 0; bottom: 0;}
+
+.pic ul{display: inline-block;}
+.pic li{width: 82px; height: 82px; border:12px solid #f6f6f6; margin-right: 6px; float: left; cursor: pointer;}
+.pic li img{width: 82px; height: 82px;}
+
+.pic ul li{position: relative;}
+.pic ul .temp{position: absolute; left: -12px; top: -12px;width: 106px; height: 106px; background-color: rgba(255,255,255,.4); display: block;}
+.pic ul .temp:hover,.pic li:hover .temp{display: none;}
+
+.pic .share{text-align: right; padding-right: 5px; font-size: 14px; color: #717171; height: 56px; line-height: 56px; vertical-align: middle;}
+.pic .share img{width: 15px; height: 15px;}
+
+.main h2{height: 46px; line-height: 46px; font-size: 24px; color: #222; font-weight: bold;}
+.main .price{height: 42px; line-height: 42px; font-size: 24px; color: #ff6242; font-weight: bold; margin-left: 5px; display: inline-block;}
+.main .price span{font-size: 12px; line-height: 23px; vertical-align: middle; color: #222; font-weight: normal; margin-left: 23px;}
+.main .number{height: 41px; line-height: 41px; font-size: 12px; font-weight: bold; padding-bottom: 9px;}
+
+.main .minus{width: 30px; height: 42px; border: 1px solid #ddd; cursor: pointer;}
+.main .text_num{width: 23px; height: 40px; background-color: #fff; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; color: #333; text-align: center; font-size: 14px; vertical-align: top; padding: 0 20px;}
+.main .plus{width: 30px; height: 42px; border: 1px solid #ddd; cursor: pointer;}
+.main .least{margin-left: 25px; line-height: 42px; height: 42px; font-size: 12px; color: #999;}
+.main #the_rest{line-height: 42px;height: 42px;font-size: 12px; color: #999; margin: 0; padding: 0;}
+.main .add{display: block; width: 192px; height: 54px; background-color: #39db87; color: #fff; text-align: center; line-height: 54px; margin: 41px 0 0 630px;}
+.main .add img{ vertical-align: middle;margin-right: 11px;}
+
+.main .success_hide{display: none; width: 241px; height: 54px; line-height: 54px; border: 1px solid #303030; margin:16px 0 0 630px; background: #474747 url(../images/gou_06.jpg) no-repeat 37px center; padding: 0 37px;}
+
+.main span{padding:0 20px 0 26px; color: #fff; font-size: 18px;}
+.success_hide a{display: inline-block; width: 84px; height: 36px; line-height: 36px; background-color: #39db87; color: #fff; vertical-align: middle; border-radius: 3px; text-align: center; margin-right: 23px; font-size: 14px;}
+
+.success_hide .close{width: 14px; height: 13px; vertical-align: middle; background: url(../images/detail_close_06.jpg) no-repeat center; cursor: pointer;}
