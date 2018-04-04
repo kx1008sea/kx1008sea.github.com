@@ -93,87 +93,170 @@
       <div class="row">
         <div class="col-md-2">
           <ul class="list-group">
-            <li class="list-group-item ">用户管理</li>
-            <li class="list-group-item active">用户搜索</li>
+            <li class="list-group-item active">内容管理</li>
+            <li class="list-group-item">用户搜索</li>
             <li class="list-group-item ">添加用户</li>
           </ul>
         </div>
 
         <div class="col-md-10">
           <div class="page-header">
-             <h3>用户管理</h3>
+             <h3>内容管理</h3>
           </div>
-          <ul class="nav nav-tabs">
-            <li role="presentation"><a href="#">用户列表</a></li>
-            <li role="presentation" class="active"><a href="#">用户搜索</a></li>
-            <li role="presentation"><a href="#" data-toggle="modal" data-target="#myModal">添加用户</a></li>
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation"><a href="#home" role="tab" data-toggle="tab" aria-expanded="false">用户列表</a></li>
+            <li role="presentation" class="active"><a href="#profile" role="tab" data-toggle="tab"  aria-expanded="true">用户搜索</a></li>
+            <li role="presentation"><a href="#messages" data-toggle="modal" data-target="#myModal">添加用户</a></li>
           </ul>
-          <div class="my_search">
-               <div class="alert alert-info" role="alert">技巧提示斤斤计较军军军军军军军军军军军</div>
-               <form>
-                 <div class="form-group">
-                   <label>用户</label>
-                    <input type="text" class="form-control" value="请输入用户名" />
-                 </div>
-                 <div class="form-group">
-                   <label>用户</label>
-                    <input type="text" class="form-control"/>
-                 </div>
-                 <div class="form-group">
-                   <label>用户</label>                            
-                    <select class="form-control">
-                      <option>用户选项</option>
-                      <option>用户选项</option>
-                      <option>用户选项</option>
-                    </select>
-                 </div>
-                 <button class="btn btn-default">保存</button>
-               </form>
-          </div>         
+		          
+		          
+		          
+		          
+		          
+		      <div class="tab-content">  
+		          <div class="tab-pane" id="home">
+	          	  <table class="table">
+			            <tr>
+			              <th>ID</th>
+			              <th>用户名</th>
+			              <th>邮箱</th>
+			              <th>操作</th>
+			            </tr>
+			            <tr>
+			              <td>1</td>
+			              <td>小李</td>
+			              <td>2345678@qq.com</td>
+			              <td><button type="button" class="btn btn-default dropdown-toggle" data-toddle="dropdown" aria-haspopup="true" aria-expanded="false">操作<span class="caret"></span></button></td>
+			            </tr>
+			             <tr>
+			              <td>2</td>
+			              <td>小李</td>
+			              <td>2345678@qq.com</td>
+			              <td><button type="button" class="btn btn-default dropdown-toggle" data-toddle="dropdown" aria-haspopup="true" aria-expanded="false">操作<span class="caret"></span></button></td>
+			            </tr>
+			             <tr>
+			              <td>3</td>
+			              <td>小李</td>
+			              <td>2345678@qq.com</td>
+			              <td><button type="button" class="btn btn-default dropdown-toggle" data-toddle="dropdown" aria-haspopup="true" aria-expanded="false">操作<span class="caret"></span></button></td>
+			            </tr>
+			             <tr>
+			              <td>4</td>
+			              <td>小李</td>
+			              <td>2345678@qq.com</td>
+			              <td><button type="button" class="btn btn-default dropdown-toggle" data-toddle="dropdown" aria-haspopup="true" aria-expanded="false">操作<span class="caret"></span></button></td>
+			            </tr>
+			             <tr>
+			              <td>5</td>
+			              <td>小李</td>
+			              <td>2345678@qq.com</td>
+			              <td><button type="button" class="btn btn-default dropdown-toggle" data-toddle="dropdown" aria-haspopup="true" aria-expanded="false">操作<span class="caret"></span></button></td>
+			            </tr>
+			             <tr>
+			              <td>6</td>
+			              <td>小李</td>
+			              <td>2345678@qq.com</td>
+			              <td><button type="button" class="btn btn-default dropdown-toggle" data-toddle="dropdown" aria-haspopup="true" aria-expanded="false">操作<span class="caret"></span></button></td>
+			            </tr>
+			             <tr>
+			              <td>7</td>
+			              <td>小李</td>
+			              <td>2345678@qq.com</td>
+			              <td><button type="button" class="btn btn-default dropdown-toggle" data-toddle="dropdown" aria-haspopup="true" aria-expanded="false">操作<span class="caret"></span></button></td>
+			            </tr>
+			             <tr>
+			              <td>8</td>
+			              <td>小李</td>
+			              <td>2345678@qq.com</td>
+			              <td><button type="button" class="btn btn-default dropdown-toggle" data-toddle="dropdown" aria-haspopup="true" aria-expanded="false">操作<span class="caret"></span></button></td>
+			            </tr>
+			             <tr>
+			              <td>9</td>
+			              <td>小李</td>
+			              <td>2345678@qq.com</td>
+			              <td><button type="button" class="btn btn-default dropdown-toggle" data-toddle="dropdown" aria-haspopup="true" aria-expanded="false">操作<span class="caret"></span></button></td>
+			            </tr>
+			             <tr>
+			              <td>10</td>
+			              <td>小李</td>
+			              <td>2345678@qq.com</td>
+			              <td><button type="button" class="btn btn-default dropdown-toggle" data-toddle="dropdown" aria-haspopup="true" aria-expanded="false">操作<span class="caret"></span></button></td>
+			            </tr>
+                </table>
+	            </div>
+			        <div class="tab-pane active in"id="profile">
+			            <div class="alert alert-info" role="alert" style="padding-top: 10px;">技巧提示斤斤计较军军军军军军军军军军军</div>
+			            <form >
+			              <div class="form-group"profile>
+			                   <label>用户</label>
+			                    <input type="text" class="form-control" value="请输入用户名" />
+			                 </div>
+			                 <div class="form-group">
+			                   <label>用户</label>
+			                    <input type="text" class="form-control"/>
+			                 </div>
+			                 <div class="form-group">
+			                   <label>用户</label>                            
+			                    <select class="form-control">
+			                      <option>用户选项</option>
+			                      <option>用户选项</option>
+			                      <option>用户选项</option>
+			                    </select> 
+			                    
+			              </div>
+			              <button class="btn btn-default">保存</button>
+			              <div class="form-group"></div>
+			            </form>
+			        </div>         
+	               
+			        <div id="myModal" class="modal fade">
+					      <div class="modal-dialog" role="document">
+					          <div class="modal-content">
+					              <div class="modal-header">
+					                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+					              </div>
+					              <div class="modal-body">
+					                    <form>
+					                        <div class="form-group">
+					                           <label>用户</label>
+					                            <input type="text" class="form-control" value="请输入用户名" />
+					                         </div>
+					                         <div class="form-group">
+					                           <label>用户</label>
+					                            <input type="text" class="form-control"/>
+					                        </div>
+					                        <div class="form-group">
+					                           <label>用户</label>
+					                            <input type="text" class="form-control"/>
+					                        </div>
+					                        <div class="form-group">
+					                           <label>用户</label>
+					                            <input type="text" class="form-control"/>
+					                        </div>
+					                        <div class="form-group">
+					                           <label>用户</label>                            
+					                            <select class="form-control">
+					                              <option>用户选项</option>
+					                              <option>用户选项</option>
+					                              <option>用户选项</option>
+					                            </select>
+					                        </div>
+					                    </form>
+					              </div>
+					              <div class="modal-footer">
+					                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					                <button type="button" class="btn btn-primary">提交</button>
+					              </div>
+					          </div>
+					      </div>         
+              </div>
+	            
+          </div> 
         </div>
+      
       </div>
-       <div id="myModal" class="modal fade">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-              </div>
-              <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                           <label>用户</label>
-                            <input type="text" class="form-control" value="请输入用户名" />
-                         </div>
-                         <div class="form-group">
-                           <label>用户</label>
-                            <input type="text" class="form-control"/>
-                        </div>
-                        <div class="form-group">
-                           <label>用户</label>
-                            <input type="text" class="form-control"/>
-                        </div>
-                        <div class="form-group">
-                           <label>用户</label>
-                            <input type="text" class="form-control"/>
-                        </div>
-                        <div class="form-group">
-                           <label>用户</label>                            
-                            <select class="form-control">
-                              <option>用户选项</option>
-                              <option>用户选项</option>
-                              <option>用户选项</option>
-                            </select>
-                        </div>
-                    </form>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                <button type="button" class="btn btn-primary">提交</button>
-              </div>
-            </div>
-          </div>         
-       </div>
+       
    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jQuery-3.1.0.min.js"></script>
